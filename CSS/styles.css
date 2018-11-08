@@ -1,0 +1,121 @@
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(80, 220, 173);
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px;
+    font-weight: bold;
+    display: grid;
+}
+
+header>p {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+header>ul {
+    grid-column: 2;
+    text-align: right;
+    list-style-type: none;
+    font-weight: normal;
+    display: inline;
+}
+
+header>ul>li {
+    display: inline;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.meowcome {
+    background-color: rgb(34, 87, 128);
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    height: 300px;
+    font-size: 20px;
+    border-bottom: 5px solid rgb(34, 87, 128);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.meowcomeText {
+    margin: 28px 10px;
+}
+
+.lightBlueSquare {
+    background-color: rgb(145, 199, 223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 50px;
+    padding-bottom: 15px;
+
+}
+
+.cats {
+    background-color: rgb(222, 186, 96);
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.2em;
+    margin: 20px auto;
+}
+
+.products {
+    background-color: rgb(216, 216, 216);
+    padding-bottom: 50px;
+}
+
+.container {
+    display: grid;                                     
+    grid-template-columns: repeat(3, 210px);            
+    grid-auto-rows: 210px;                              
+    grid-gap: 30px;                                       
+}
+
+.pusheen {
+    border: 3px solid black;
+    background-color: rgb(244, 228, 201);
+    height: 210px;
+    width: 210px;
+}
+
+.funValuesMeow {
+    background-color: rgb(34, 79, 128);
+    color: white;
+    padding-bottom: 37px;
+}
+
+.funValuesMeowDivs {
+    color: rgb(215, 61, 89);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 45px;
+}
+
+footer {
+    background-color: rgb(80, 220, 173);
+    text-align: right;
+    font-size: 18px;
+    padding: 15px;
+
+}
